@@ -1,0 +1,28 @@
+{
+  [
+    {
+      "name": "chocolate cake",
+      "ingredients": ["59ebc3cfbf8d5db65f8a8316", "59ebc3cfbf8d5db65f8a8317", "59ebd6a471a427031cf86bb2"],
+      "directions": "Mix everything together.  Put in fridge.",
+      "image": "chocolate.jpg"
+    },
+    {
+      "name": "vanilla cake",
+      "ingredients": ["59ebc3cfbf8d5db65f8a8316", "59ebc3cfbf8d5db65f8a8317", "59ebd6a471a427031cf86bb3"],
+      "directions": "Mix it together.  Throw it in the garbage.",
+      "image": "vanilla.jpg"
+    },
+    {
+      "name": "wheat-free cake",
+      "ingredients": ["59ebd6a471a427031cf86bb1", "59ebd6a471a427031cf86bb2"],
+      "directions": "Mix it together.  Put it in your freezer.",
+      "image": "wfree.jpg"
+    },
+    {
+      "name": "confetti cake",
+      "ingredients": ["59ebc3cfbf8d5db65f8a8317", "59ebd6a471a427031cf86bb1", "59ebd6a471a427031cf86bb2", "59ebd6a471a427031cf86bb3"],
+      "directions": "Pull out of garbage.  Mix it together.  Put it in your toaster oven.",
+      "image": "confetti.jpg"
+    },
+  ]
+}
