@@ -16,7 +16,14 @@
     "url": "https://github.com/Montana-Code-School/mongo-cakes-api/issues"
   },
   "homepage": "https://github.com/Montana-Code-School/mongo-cakes-api#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^2.4.1"
+  },
   "dependencies": {
+    "babel-preset-react": "^6.24.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "mongoose": "^4.12.3"
