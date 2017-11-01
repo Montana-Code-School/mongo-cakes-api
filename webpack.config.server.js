@@ -27,5 +27,10 @@ module.exports = {
             }
         ]
     },
-    devtool: 'source-map'
+    devtool: 'source-map',
+    devServer: {
+      historyApiFallbackHistory: true,
+      contentBase: './',
+      hot: true
+    }
 };

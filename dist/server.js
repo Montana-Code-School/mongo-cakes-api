@@ -64669,7 +64669,7 @@ router.use(function (req, res, next) {
   next();
 });
 
-router.route("/recipe").post(function (req, res) {
+router.route("/recipes").post(function (req, res) {
   var recipe = new Recipe();
   recipe.name = req.body.name;
   recipe.ingredients;
@@ -64721,7 +64721,7 @@ router.route('/recipe/:recipe_id').get(function (req, res) {
   });
 });
 
-router.route('/ingredient').post(function (req, res) {
+router.route('/ingredients').post(function (req, res) {
   var ingredient = new Ingredient();
 
   ingredient.name = "Egg";

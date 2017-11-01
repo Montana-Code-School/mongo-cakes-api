@@ -1,0 +1,28 @@
+
+body{
+  background-color: #E9967A;
+}
+h1{
+  font-family: 'Homemade Apple', cursive;
+  position: sticky;
+}
+
+nav {
+  background-color: black;
+  overflow: hidden;
+  padding: 5px;
+}
+
+a{
+  color:white;
+}
+img{
+    border-color: black;
+    border-radius: 25px;
+    width:300px;
+    height:auto;
+}
+button{
+  background-color: #E9967A;
+  border: none;
+}

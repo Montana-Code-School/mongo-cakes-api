@@ -25,7 +25,7 @@ router.use(function(req, res, next) {
   next();
 });
 
-router.route("/recipe")
+router.route("/recipes")
   .post(function(req, res) {
     var recipe = new Recipe();
     recipe.name = req.body.name;
@@ -88,7 +88,7 @@ router.route('/recipe/:recipe_id')
     });
   });
 
-router.route('/ingredient')
+router.route('/ingredients')
   .post(function(req, res) {
     var ingredient = new Ingredient();
 

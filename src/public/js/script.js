@@ -1,23 +1,28 @@
 console.log("LOADED!");
 import React from "react";
 import ReactDOM from "react-dom";
-import Cake from "./components/cakes";
 import Home from "./components/home";
-import {BrowserRouter,Route,Link} from "react-router-dom";
+import Cake from "./components/cakes";
+import Ingredients from "./components/ingredients"
+import Recipes from "./components/recipes"
+import {BrowserRouter,Route,Link,browserHistory,indexRoute} from "react-router-dom";
 
 
 class Container extends React.Component {
   render(){
     return(
       <div>
-        <h1>Hello world!</h1>
-        <nav>
-          <ul>
-            <li> <Link to = "/">Home</Link></li>
-          </ul>
+        <nav className ="navbar navbar-fixed-top">
+          <div className = "nav navbar-nav">
+            <Link to = "/" >Home</Link>
+            <Link to = "/ingredients">Ingredients</Link>
+            <Link to = "/recipes">Recipes</Link>
+          </div>
         </nav>
         <div className = "content">
-          <Route path = "/" component = {Home}/>
+          <Route path = "/" exact component = {Home}/>
+          <Route path = "/ingredients" component = {Ingredients}/>
+          <Route path = "/recipes" component = {Recipes}/>
         </div>
     </div>
     )

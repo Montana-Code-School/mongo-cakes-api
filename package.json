@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:client": "webpack --config webpack.config.client.js --watch",
-    "dev:server": "webpack --config webpack.config.server.js --watch",
+    "dev:client": "webpack --config webpack.config.client.js --watch --history-api-fallback",
+    "dev:server": "webpack --config webpack.config.server.js --watch --history-api-fallback",
     "dev:start": "nodemon dist/server.js --watch dist/server.js"
   },
   "repository": {

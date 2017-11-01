@@ -1,0 +1,92 @@
+[
+{
+_id: "59f2bd05cdd27900af41c0d0",
+name: "egg",
+calories: 78,
+allergen: [
+"egg"
+],
+allergens: [ ]
+},
+{
+_id: "59f2bd05cdd27900af41c0d1",
+name: "sugar",
+calories: 773,
+allergen: [
+"n/a"
+],
+allergens: [ ]
+},
+{
+_id: "59f2bd05cdd27900af41c0d2",
+name: "AP flour",
+calories: 445,
+allergen: [
+"gluten"
+],
+allergens: [ ]
+},
+{
+_id: "59f2bd05cdd27900af41c0d3",
+name: "vanilla extract",
+calories: 38,
+allergen: [
+"n/a"
+],
+allergens: [ ]
+},
+{
+_id: "59f2bd05cdd27900af41c0d4",
+name: "butter",
+calories: 102,
+allergen: [
+"lactose"
+],
+allergens: [ ]
+},
+{
+_id: "59f2bd05cdd27900af41c0d5",
+name: "baking powder",
+calories: 2,
+allergen: [
+"n/a"
+],
+allergens: [ ]
+},
+{
+_id: "59f2bd05cdd27900af41c0d6",
+name: "salt",
+calories: 0,
+allergen: [
+"n/a"
+],
+allergens: [ ]
+},
+{
+_id: "59f2bd05cdd27900af41c0d7",
+name: "whole milk",
+calories: 103,
+allergen: [
+"lactose"
+],
+allergens: [ ]
+},
+{
+_id: "59f2bd05cdd27900af41c0d8",
+name: "cocoa powder",
+calories: 12,
+allergen: [
+"n/a"
+],
+allergens: [ ]
+},
+{
+_id: "59f2bd05cdd27900af41c0d9",
+name: "baking soda",
+calories: 0,
+allergen: [
+"n/a"
+],
+allergens: [ ]
+}
+]
